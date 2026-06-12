@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const DEFAULT_API_URL = 'http://localhost:8000/api/ascii/';
+const DEFAULT_API_URL = 'http://asciiart.duckdns.org/api/ascii/';
 const API_URL = normalizeApiUrl(import.meta.env.VITE_API_URL || DEFAULT_API_URL);
 
 const api = axios.create({
